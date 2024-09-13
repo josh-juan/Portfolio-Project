@@ -1,0 +1,32 @@
+:root{
+  /* Color pallet */
+  --blue1: #0b1f5c;
+  --blue2: #003e7c;
+  --blue3: #005e98;
+  --blue4: #007eae;
+  --blue5: #009fc0;
+  --blue6: #1ebfce;
+  --blue7: #62dfda;
+  --blue8: #99ffe5;
+
+  --main-bg-color: var(--blue4);
+  --main-font-color: white;
+
+
+
+}
+
+
+html{
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+}
+
+.nav-link {
+  display: inline;
+}
+
+.nav-block {
+  background-color: var(--blue2);
+  width: max-content;
+}
