@@ -9,10 +9,10 @@
   --blue7: #62dfda;
   --blue8: #99ffe5;
 
-  --main-bg-color: var(--blue4);
-  --main-font-color: white;
+  --main-bg-color: var(--blue2);
+  --main-font-color: #fffbf7;
 
-
+  --link-font-color: white;
 
 }
 
@@ -22,11 +22,62 @@ html{
   color: var(--main-font-color);
 }
 
-.nav-link {
-  display: inline;
+h1{
+  font-size: 4em;
+}
+.main-content p {
+  font-size: 30px;
 }
 
+
+
+
+
+/*Navigation Section: */
 .nav-block {
-  background-color: var(--blue2);
   width: max-content;
+
+  --nav-color: var(--blue1); /*changes the background color and border color */
+  background-color: var(--nav-color);
+  color: var(--main-font-color);
+
+  border: 10px solid var(--nav-color);
+  border-radius: 15px;
+  margin-top: 35px;
+  margin-left: 10px;
+
+
 }
+
+.nav-link {
+  display: inline;
+  font-size: 20px;
+}
+.nav-link a {
+  color: var(--link-font-color);
+  text-decoration: none;
+}
+.nav-link a:visited {
+  color: var(--link-font-color);
+}
+.nav-link a:hover {
+  color: var(--link-font-color);
+  text-decoration: underline;
+}
+.nav-link a:active {
+  color: var(--link-font-color);
+}
+
+.main-content {
+  width: 80vw;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome {
+  text-align: right;
+}
+
+
+
